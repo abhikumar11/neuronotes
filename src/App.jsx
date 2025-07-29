@@ -1,6 +1,12 @@
+import FlashCard from "./components/FlashCard"
+import QuestionForm from "./components/QuestionForm"
+
 const App = () => {
   return (
-    <div>App</div>
+    <div>
+      <QuestionForm/>
+      <FlashCard/>
+    </div>
   )
 }
 
